@@ -1,0 +1,149 @@
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+.searchable-fields {
+    padding-left:5px;
+}
+.searchable-link {
+    padding:0 5px 0 5px;
+}
+.searchable-link:hover   {
+    cursor: pointer;
+    background: #eaeaea;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+
+#add_email_section .form-group{
+	position: relative;
+}
+
+#add_email_section .btn-danger{
+    margin-left: -50px;
+    height: 32px;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+.main-header .logo{
+	background-color: #4386bc !important;
+}
+
+.main-header .logo-lg img{
+	height: 47px;
+    width: 75px;
+    float: left;
+    padding-top: 3px;
+}
+
+.main-header .logo-mini img{
+	height: 40px;
+    width: 50px;
+}
+
+.main-header .logo-lg p{
+	font-size: 14px;
+    position: absolute;
+    left: 95px;
+    width: 120px;
+    line-height: normal;
+    top: 10px;
+}
+
+.main-header .navbar{
+	background-color: #4386bc !important;
+}
+
+.main-sidebar span.menu-item{
+	padding-left: 5px;
+}
+
+dl.dl-horizontal{
+	margin-left: 30px;
+}
+
+dl.dl-horizontal dt{	 
+	text-align: left !important;
+}
+
+.panel.panel-default{
+	border-top: 3px solid #4386bc;
+}
+
+#review_table .input_value{
+	display: none;
+}
+
+#generate_table .input_value{
+	display: none;
+}
+
+.input-group.prefix{
+	position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.prefix span.sample_prefix{
+	padding: 6px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
